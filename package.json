@@ -1,7 +1,7 @@
 {
-    "name": "use-geolocation",
-    "description": "React hook for geolocation.getCurrentPosition and getCurrentPosition.watchPosition",
-    "version": "0.0.0-dev",
+    "name": "use-geolocation-position",
+    "description": "React hook for geolocation.getCurrentPosition and geolocation.watchPosition",
+    "version": "1.0.0",
     "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
     "type": "module",
     "main": "src/index.js",

@@ -1,9 +1,9 @@
 
-# use-geolocation
-[![package version](https://img.shields.io/npm/v/use-geolocation.svg?style=flat-square)](https://npmjs.org/package/use-geolocation)
-[![package downloads](https://img.shields.io/npm/dm/use-geolocation.svg?style=flat-square)](https://npmjs.org/package/use-geolocation)
+# use-geolocation-position
+[![package version](https://img.shields.io/npm/v/use-geolocation-position.svg?style=flat-square)](https://npmjs.org/package/use-geolocation-position)
+[![package downloads](https://img.shields.io/npm/dm/use-geolocation-position.svg?style=flat-square)](https://npmjs.org/package/use-geolocation-position)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![package license](https://img.shields.io/npm/l/use-geolocation.svg?style=flat-square)](https://npmjs.org/package/use-geolocation)
+[![package license](https://img.shields.io/npm/l/use-geolocation-position.svg?style=flat-square)](https://npmjs.org/package/use-geolocation-position)
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 > React hook for `geolocation.getCurrentPosition` and `getCurrentPosition.watchPosition`
@@ -20,7 +20,7 @@
 ```js
 import React from 'react'
 
-import { useCurrentPosition, useWatchPosition } from 'use-geolocation'
+import { useCurrentPosition, useWatchPosition } from 'use-geolocation-position'
 
 export default function App () {
   const currentPosition = useCurrentPosition({
@@ -52,9 +52,9 @@ export default function App () {
 This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). 
 
 ```sh
-$ npm install use-geolocation
+$ npm install use-geolocation-position
 $ # OR
-$ yarn add use-geolocation
+$ yarn add use-geolocation-position
 ```
 
 ## Contribute
