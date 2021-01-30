@@ -16,6 +16,10 @@
         "current-position",
         "watch-position"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tiaanduplessis/use-geolocation-position"
+    },
     "license": "MIT",
     "scripts": {
         "lint": "standard --fix"
